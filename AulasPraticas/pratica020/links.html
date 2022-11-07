@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: black;
+        }
+
+        a::after{
+            content: '☍';
+            color: rgb(67, 67, 67);
+            margin: 5px;
+        }
+        .juntar{
+            margin-top: -12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Visite o YouTube</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="external">Visite o GitHub</a></li>
+        <li><a href="https://twitter.com/" target="_blank" rel="external">Visite o Twitter</a></li>
+    </ul>
+
+    <p>Teste box level</p>
+    <p class="juntar">Testando quebra de linha do box level</p>
+
+    <a href="">Teste inline level</a>
+    <a href="">Testando inline level</a>
+
+    <p>Testando a classe juntar em outros parágrafos</p>
+    <p class="juntar">A classe juntar está em ação</p>
+</body>
+</html>

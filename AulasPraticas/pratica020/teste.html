@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Hover</title>
+    <style>
+        div{
+            background-color: red;
+            width: 200px;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Praticando hover em menu</h1>
+    <p>Passe o mouse para acessar os jogos</p>
+    <div>
+        JOGOS
+        <p>Flamengo x Atletico PR</p>
+        <p>Vasco x Alagoas</p>
+        <p>Botafogo x XV de piracicaba</p>
+        <p>Fluminense x Ceará</p>
+    </div>
+</body>
+</html>
