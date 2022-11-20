@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Passion+One:wght@700;900&display=swap');
+
+:root{
+    --fonte01: 'Open Sans';
+    --cor01: #D30309;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: var(--fonte01);
+    background-image: linear-gradient(to right,#0071AD, var(--cor01));
+}
+section{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+}
+
+section > p{
+    text-align: left;
+    padding: 3px;
+}
