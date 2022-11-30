@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* configurações vertical */
+
+body{
+    background-image: url(../imagens/lucas-portrait.png);
+    background-position: bottom center;
+    background-size: 70vh;
+    background-color: #9C27B0;
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Configurações horizontal */
+
+body{
+    background-image: url(../imagens/lucas-landscape.png);
+    background-color: #2196F3;
+    background-position: bottom right;
+    background-size: 120vh;
+}
